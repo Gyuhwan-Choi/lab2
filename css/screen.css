@@ -1,0 +1,70 @@
+h1 {
+    margin: 50px 0 70px 0;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff0080;
+    text-shadow: 2px 2px #aaaaaa;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+body {
+    background-image: url('../media/background.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    form {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Comic Sans MS', sans-serif;
+        position: relative;
+    }
+
+    label {
+        clear: both;
+        display: inline-block;
+        width: 30%;
+        margin-right: 5%;
+        text-align: right;
+        font-weight: bold;
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-left: -15%;
+    }
+
+  input[type="name"],
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+      width: 60%;
+      height: 40px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ff0080;
+      border-radius: 10px;
+      box-shadow: 2px 2px #aaaaaa;
+      margin-bottom: 10px;
+    }
+
+  input[type="submit"] {
+      width: 60%;
+      height: 50px;
+      margin: 20px auto;
+      background-color: #ff0080;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 2px 2px #aaaaaa;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+}
